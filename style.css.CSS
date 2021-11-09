@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+
+}
+
+header{
+    display: flex;
+  
+    justify-content:flex-end;
+    align-items: center;
+    background-color: rgb(39, 44, 46);
+    height: 10vh;
+    padding: 20px 5%;
+   
+
+}
+
+
+
+
+
+
+ li,a,button{
+     font-weight: 500;
+     text-decoration: none;
+     font-size: 16px;
+     color:aliceblue;
+ }
+ nav ul li{
+     display: inline-block;
+     padding: 0px 28px;
+ }
+
+ .logo{
+    
+    
+  display: flex;
+    user-select: none;
+     margin-right: auto;
+     transition: all 1s ease 0s;
+
+    animation-name: anime;
+    
+ }
+
+
+
+
+
+
+
+ nav ul li a
+ {
+
+    transition: all 0.3s ease 0s;
+     
+ }
+
+ nav ul li a:hover{
+     color: black;
+
+ }
+
+ header button{
+   
+     padding: 9px 20px;
+     background-color: rgb(0, 0, 0);
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+     outline: none;
+     transition: all 1s ease 0s;
+ }
+
+ header button:hover{
+     background-color: white;
+     color:black ;
+ }
+
+ .wrapper
+ {
+     background: url(./5137894.jpg) no-repeat center center / cover;
+     
+     width: 100%;
+     display: block;
+     position: relative;
+     z-index: 1;
+    }
+
+    .wrapper::before{
+        position: absolute;
+        content: '';
+        background-image: linear-gradient(to right, rgba(32,40,119,0.95),rgba(55,46,119,0.95))url(./pexels-vishnu-r-nair-1105666.jpg);
+    
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left:0;
+        z-index: -1;
+    }
+
+    .content{
+        display: flex;
+        padding: 88px 10%;
+        justify-content: space-between;
+        color: aliceblue;
+    }
+
+    .hero h1{
+        font-size: 40px;
+
+    }
+
+    .hero p{
+        margin: 30px 0;
+        line-height: 2;
+        font-weight: 400;
+
+    }
+
+    .btn{
+        margin: 2px;
+        display: flex;
+        font-weight: bold;
+        align-items: center;
+        font-size: 14px;
+        color: black;
+        user-select: none;
+        outline: none;
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: rgb(113, 118, 187);
+        padding: 8px 8%;
+        border-radius: 10px;
+        cursor: pointer;
+   
+    }
+
+    
+    .btn:hover{
+      
+       
+        color: black;
+        font-weight: 500;
+        border: 1px solid yellow;
+    }
+
+    #ii{
+
+        width: 70%;
+
+        background-color:transparent;
+
+        outline: none;
+        border-bottom: 1px solid gray;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        
+
+        
+    }
+    h4{
+        display: flex;
+        color: rgb(233, 233, 233);
+        font-size: 15px;
+        line-height: 10px;
+        letter-spacing: 9px;
+    }
+    h3{
+        margin-right: 3%;
+        color: gray;
+    }
+
+    i.fas{
+        margin-left: 4%;
+        margin-right: 5px;
+        letter-spacing: 7px;
+        color: gray;
+        font-size: 28px;
+        align-items: flex-start;
+        
+        animation-name: anime;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+        
+    }
+ 
+    i.fas:hover{
+        color: yellow;
+    }
+    
+    
+ 
+ p{
+     text-indent: 50px;
+ }
+
+  #fun{
+color: rgb(113, 93, 187);
+ }
+ 
+ .bottom{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: blueviolet;
+ }
+
+
+ .next
+ {
+     background: url(./5137894.jpg) no-repeat center center / cover;
+     
+     
+     display: flex;
+    
+     z-index: 1;
+    
+     
+    }
+
+    .next::before{
+        position: absolute;
+        content: '';
+        
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left:0;
+       
+        
+    }
+    .next #d{
+        display: flex;
+        padding: 0 70px;
+    }
+    .cont{
+      
+    margin-top: 50px;
+    margin-right: 40px;
+    color: #fff;
+        
+        
+    }
+
+    #s{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+ 
+    #l{
+        font-size: 17px;
+        letter-spacing:1px;
+        
+    }
+
+    i.fab{
+        margin-top: 70px;
+        margin-left: 7%;
+        margin-right: 5px;
+        letter-spacing: 7px;
+        color: gray;
+        font-size: 28px;
+        cursor: pointer;
+        
+        
+    }
+    i.fab:hover{
+        color: yellow;
+    }
+
+    .pre{
+
+        
+            background: url(./5137894.jpg) no-repeat center center / cover;
+            
+            width: 100%;
+            display: block;
+            position: relative;
+            z-index: 1;
+           }
+       
+           .pre::before{
+               position: absolute;
+               content: '';
+               background-image: linear-gradient(to right, rgba(32,40,119,0.95),rgba(55,46,119,0.95))url(./pexels-vishnu-r-nair-1105666.jpg);
+           
+               width: 100%;
+               height: 100%;
+               top: 0;
+               left:0;
+               z-index: -1;
+           }
+       
+    #J{
+        margin:  120px;
+        box-shadow: 3px 3px 5px rgb(0, 0, 0);
+       display: inline-block;
+        align-items: center;
+        
+    }
+  
+
+    #d{
+        padding: 40px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(248, 248, 248);
+        
+
+    }
+    #f{
+        
+        color: #fff;
+        margin: 39px;
+        font-size: 19px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+    #J1{
+        color: aqua;
+       
+        z-index: 10;
+        margin-left: 10%;
+        margin-top: 7%;
+        position: relative;
+        
+       
+      
+    }
+ 
+     h5{
+       
+        margin-top: 10px;
+        font-size: 20px;
+        color: #fff;
+        margin-left: 11%;
+        letter-spacing: 1px;
+    
+        position: relative;
+       
+       
+        
+      
+    }
+
+    #n{
+        
+       position: absolute;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top:35%;
+        left: 28%;
+        font-size: 17px;
+        border: 2px solid gray;
+        padding: 50px;
+        margin-right: 15px;
+        border-radius: 10px;
+        
+        
+        
+        
+
+    }
+    #J2{
+       
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 30%;
+        letter-spacing: 2px;
+        text-indent: 3%;
+        color: rgb(255, 255, 255);
+       
+          
+    }
+    #h{
+        position: absolute;
+        top: 60%;
+        left: 48%;
+        padding: 10px;
+        color: #fff;
+        letter-spacing: 1px;
+        border: 2px solid gray;
+        padding: 50px;
+        margin-right: 15px;
+        border-radius: 10px;
+    }
+
+    #J3{
+        margin-left: 14%;
+        margin-top:80px;
+        position: relative;
+    }
+    #m{
+   
+        color: aliceblue;
+       
+        top:35%;
+        text-indent: 65px;
+        font-size: 17px;
+    
+    }
+
+    #v{
+
+       position: absolute;
+       top: 84%;
+       left: 32%;
+       padding: 10px;
+        color: #fff;
+        letter-spacing: 1px;
+        border: 2px solid gray;
+        padding: 50px;
+        margin-right: 15px;
+        border-radius: 10px;
+        transition: 1s ease in;
+    }
+
+    #v:hover{
+
+        border: 1px solid lawngreen;
+    }
+    #h:hover{
+
+        border: 1px solid lawngreen;
+    }
+    #n:hover{
+
+        border: 1px solid lawngreen;
+    }
+
+    .foot{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+       
+       background-size: cover;
+       background-position: center;
+        background-image: url(./5137894.jpg);
+    }
+    .cc{
+       
+        position: absolute;
+       top:20%;
+       left: 46%;
+
+       white-space:pre-line;
+        justify-content: center;
+        align-items: center;
+       
+       
+
+    }
+    #p{
+        margin-top: 30px;
+       position: absolute;
+        font-size: 50px;
+        margin-left: 34%;
+        
+    }
+    #o{
+        margin-top: 7%;
+        position: absolute;
+         font-size: 30px;
+         margin-left: 34%;
+         color: #fff;
+         letter-spacing: 2px;
+    }
+    input{
+        font-size: 18px;
+        color:#fff;
+        padding: 10px;
+        width: 130%;
+        outline: none;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid black;
+    }
+
+    #g{
+        border: 2px solid black;
+        height: 17vh;
+        margin-top: 20px;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        text-indent: 0%;
+        background: transparent;
+        width: 130%;
+        height: 24vh;
+    }
+    legend{
+        font-size: 17px;
+        color: rgb(160, 154, 154);
+        text-indent: 9px;
+    }
+
+     #y{
+        padding: 8px 30px;
+        background: transparent;
+        border: none;
+        border: 1px solid black;
+        cursor: pointer;
+        margin-left: 88%;
+    }
+    input:hover{
+       
+        border-bottom: 2px solid chartreuse;
+    }
+
+    #g:hover{
+        border: 2px solid greenyellow;
+    }
+
+    #y:hover{
+        background-color: black;
+        color: ;
+    }
